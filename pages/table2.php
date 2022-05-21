@@ -31,12 +31,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/Project2/Images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Project2/Images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/Project2/Images/favicon/site.webmanifest">
-    <title>Cilantro Hospital</title>
+    <title>AngelCare Hospital</title>
 </head>
 
 <body>
     <header>
-        <a href='/Project2/index.html' class='brand'><h2 class="brand">CILANTRO</h2></a>
+        <a href='/Project2/index.html' class='brand'><h2 class="brand">AngelCare</h2></a>
         <nav>
             <ul class="nav_links">
                 <li><a href="/Project2/index.html">Home</a></li>

@@ -31,12 +31,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/Project2/Images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Project2/Images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/Project2/Images/favicon/site.webmanifest">
-    <title>Cilantro Hospital</title>
+    <title>AngelCare Hospital</title>
 </head>
 
 <body>
     <header>
-        <a href='/Project2/index.html' class='brand'><h2 class="brand">CILANTRO</h2></a>
+        <a href='/Project2/index.html' class='brand'><h2 class="brand">AngelCare</h2></a>
         <nav>
             <ul class="nav_links">
                 <li><a href="/Project2/index.html">Home</a></li>
@@ -48,7 +48,7 @@
     </header>
 
     <!-- <div class="ctxt">
-        <h3>Welcome to Cilantro Hospital</h3>
+        <h3>Welcome to AngelCare Hospital</h3>
         <hr>
         <p>Keeping you to a better life.</p>
     </div> -->
@@ -120,7 +120,7 @@
             <div class="footer-container">
                 <div class="sec aboutus">
                     <h2>About Us</h2>
-                    <p>We take health care personally at Cilantro. Because excellence in health care is about more than
+                    <p>We take health care personally at AngelCare. Because excellence in health care is about more than
                         just
                         medicine, technology, tests and treatments. It is about really caring for people with dignity
                         and respect.
@@ -169,7 +169,7 @@
             </div>
         </footer>
         <div class="copyrightText">
-            <p>Copyright ©️ 2021 Cilantro Hospitals. All rights reserved.</p>
+            <p>Copyright ©️ 2021 AngelCare Hospitals. All rights reserved.</p>
         </div>
     </div> -->
 
