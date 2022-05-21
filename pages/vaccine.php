@@ -1,9 +1,9 @@
 <?php
     if(isset($_POST['name'])){
-        $server = "localhost";
-        $username = "root";
-        $password = "";
-        $con = mysqli_connect($server, $username, $password);
+        $server = "http://covid-hospital.infinityfreeapp.com/";
+        $username = "epiz_31781526";
+        $password = "VLw3IL2lUe66";
+        $con = mysqli_connect($server, $username, $password, "epiz_31781526_hospital");
     
         if(!$con) {
             die("Connection to database failed due to".mysqli_connect_error());
@@ -17,7 +17,7 @@
         $vaccine = $_POST['vaccine'];
         $insert = '';
 
-        $sql = "INSERT INTO `hospital`.`vaccine` (`Name`, `Age`, `Email`, `Phone`, `Gender`, `Vaccine`, `timestamp`) VALUES ('$name', '$age', '$email', '$phone', '$gender', '$vaccine', current_timestamp());";
+        $sql = "INSERT INTO `epiz_31781526_hospital`.`vaccine` (`Name`, `Age`, `Email`, `Phone`, `Gender`, `Vaccine`, `timestamp`) VALUES ('$name', '$age', '$email', '$phone', '$gender', '$vaccine', current_timestamp());";
         if($con->query($sql)) {
             $insert = true;
         }

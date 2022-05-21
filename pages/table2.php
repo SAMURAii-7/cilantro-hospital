@@ -67,7 +67,10 @@
             </tr>
 
             <?php
-                $con = mysqli_connect('localhost', 'root', '', 'hospital');
+                $server = "http://covid-hospital.infinityfreeapp.com/";
+                $username = "epiz_31781526";
+                $password = "VLw3IL2lUe66";
+                $con = mysqli_connect($server, $username, $password, "epiz_31781526_hospital");
                 if($con->connect_error) {
                     die("Connection failed: ". $con->connect_error);
                 }
