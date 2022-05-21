@@ -1,9 +1,9 @@
 <?php
     if(isset($_POST['name'])){
-        $server = "localhost";
-        $username = "root";
-        $password = "";
-        $con = mysqli_connect($server, $username, $password);
+         $server = "sql104.epizy.com";
+        $username = "epiz_31781526";
+        $password = "VLw3IL2lUe66";
+        $con = mysqli_connect($server, $username, $password, "epiz_31781526_hospital");
     
         if(!$con) {
             die("Connection to database failed due to".mysqli_connect_error());

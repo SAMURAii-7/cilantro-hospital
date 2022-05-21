@@ -1,7 +1,7 @@
 <?php
     if(isset($_POST['userName'])) {
 
-        $server = "http://covid-hospital.infinityfreeapp.com/";
+        $server = "sql104.epizy.com";
         $username = "epiz_31781526";
         $password = "VLw3IL2lUe66";
         $con = mysqli_connect($server, $username, $password, "epiz_31781526_hospital");
