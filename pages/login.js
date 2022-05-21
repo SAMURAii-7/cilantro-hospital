@@ -3,8 +3,10 @@ document.getElementById("loginForm").addEventListener("submit", postData);
 function postData(e) {
     e.preventDefault();
 
-    const form = {userName: document.getElementById("uname"),
-                    password: document.getElementById("pwd")};
+    const form = {
+        userName: document.getElementById("uname"),
+        password: document.getElementById("pwd")
+    };
 
     const params = `userName=${form.userName.value}&password=${form.password.value}`;
     var xhr = new XMLHttpRequest();
@@ -14,7 +16,7 @@ function postData(e) {
     xhr.send(params);
 
     alert("Login Successful");
-    if(xhr.status >= 200 && xhr.status <=400) {
+    if (xhr.status >= 200 && xhr.status <= 400) {
         eval(xhr.responseText);
     }
     document.getElementById("loginForm").reset();

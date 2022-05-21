@@ -27,10 +27,10 @@
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./Images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./Images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../Images/favicon/site.webmanifest">
     <title>AngelCare Hospital</title>
 </head>
 

@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-.login-container{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.login-container {
   display: grid;
   height: 100vh;
   width: 100%;
   place-items: center;
 }
-::selection{
+::selection {
   background: #0a1931;
-
 }
-.login-div{
+.login-div {
   background: #fff;
   max-width: 350px;
   width: 100%;
@@ -19,36 +18,36 @@
   margin-top: -100px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
 }
-.login-div form .title{
+.login-div form .title {
   font-size: 30px;
   font-weight: 600;
   margin: 20px 0 10px 0;
   position: relative;
 }
-.login-div form .title:before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: #f00;
+.login-div form .title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: #f00;
 }
-.login-div form .input-box{
+.login-div form .input-box {
   width: 100%;
   height: 45px;
   margin-top: 25px;
   position: relative;
 }
-.login-div form .input-box input{
+.login-div form .input-box input {
   width: 100%;
   height: 100%;
   outline: none;
   font-size: 16px;
   border: none;
 }
-.login-div form .underline::before{
-  content: '';
+.login-div form .underline::before {
+  content: "";
   position: absolute;
   height: 2px;
   width: 100%;
@@ -56,8 +55,8 @@
   left: 0;
   bottom: 0;
 }
-.login-div form .underline::after{
-  content: '';
+.login-div form .underline::after {
+  content: "";
   position: absolute;
   height: 2px;
   width: 100%;
@@ -69,11 +68,11 @@
   transition: all 0.3s ease;
 }
 .login-div form .input-box input:focus ~ .underline::after,
-.login-div form .input-box input:valid ~ .underline::after{
+.login-div form .input-box input:valid ~ .underline::after {
   transform: scaleX(1);
   transform-origin: left;
 }
-.login-div form .button{
+.login-div form .button {
   margin: 40px 0 20px 0;
 }
 #login {
@@ -84,11 +83,11 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-#login:hover{
+#login:hover {
   letter-spacing: 1px;
   background: linear-gradient(to left, #0a1931 0%, #0508a1 100%);
 }
-.login-div .option{
+.login-div .option {
   font-size: 14px;
   text-align: center;
 }
