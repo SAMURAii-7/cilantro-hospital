@@ -16,8 +16,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Project2/style.css">
-    <link rel="stylesheet" href="/Project2/table.css">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../table.css" />
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,24 +27,24 @@
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
         integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/Project2/Images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/Project2/Images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/Project2/Images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/Project2/Images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Images/favicon/site.webmanifest">
     <title>AngelCare Hospital</title>
 </head>
 
 <body>
     <header>
-        <a href='/Project2/index.html' class='brand'><h2 class="brand">AngelCare</h2></a>
+        <a href='./index.html' class='brand'><h2 class="brand">AngelCare</h2></a>
         <nav>
             <ul class="nav_links">
-                <li><a href="/Project2/index.html">Home</a></li>
-                <li><a href="/Project2/pages/table2.php">Covid Tests</a></li>
-                <li><a href="/Project2/pages/table3.php">Covid Vaccination</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./table2.php">Covid Tests</a></li>
+                <li><a href="./table3.php">Covid Vaccination</a></li>
             </ul>
         </nav>
-        <a href="/Project2/pages/logout.php"><button class="cta">Logout</button></a>
+        <a href="./logout.php"><button class="cta">Logout</button></a>
     </header>
 
     <!-- <div class="ctxt">
@@ -138,7 +138,7 @@
                 <div class="sec qlinks">
                     <h2>Quick Links</h2>
                     <ul>
-                        <li class=""><a href="/Project2/pages/about.html">About</a></li>
+                        <li class=""><a href="./pages/about.html">About</a></li>
                         <li class=""><a href="#">FAQ</a></li>
                         <li class=""><a href="#">Privacy Policy</a></li>
                         <li class=""><a href="#">Help</a></li>
