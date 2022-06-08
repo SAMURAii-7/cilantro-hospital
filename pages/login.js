@@ -15,11 +15,18 @@ function postData(e) {
 
     xhr.send(params);
 
-    alert("Login Successful");
-    if (xhr.status >= 200 && xhr.status <= 400) {
-        eval(xhr.responseText);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                ev = xhr.responseText
+                if (ev === "die") {
+                    alert("Login Unsuccessful\nUsername/Password is incorrect")
+                } else {
+                    alert("Login Successful")
+                    eval(xhr.responseText)
+                }
+            }
+        }
     }
     document.getElementById("loginForm").reset();
-
-
 }
